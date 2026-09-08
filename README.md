@@ -1,0 +1,1 @@
+    O cliente deste repositório é a Sorriso Metálico, clínica odontológica do Dr. Roberto. O objetivo do sistema é organizar os agendamentos, pacientes e horários dos dentistas, evitando conflitos e permitindo o controle dos pacientes VIP.
