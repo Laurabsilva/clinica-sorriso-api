@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f7fa;
+    line-height: 1.5;
+    color: #12293b;
+}
+
+header {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #12293b;
+    border-bottom: 1px solid;
+    border-color: #cfd8df;
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+header img {
+    width: 190px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.banner img{
+    width: 50%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+}
+
+.letras-pequenas  {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+main {
+    padding: 24px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 64px;
+    line-height: 1;
+    text-align: center;
+    margin: 30px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 32px;
+    margin: 56px;
+}
+
+#inicio {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #cfd8df;
+    border-radius: 16px;
+    padding: 28px;
+    font-size: 18px;
+}
+
+.horarios {
+    background-color: #12293b;
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 30px;
+    font-size: 17px;
+}
+
+ul, li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#galeria {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    background-color: #e4ebf0;
+    width: 380px;
+    padding: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #b9c6cf;
+    text-align: center;
+
+}
+
+.card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid;
+    border-color: #cfd8df;
+    padding: 14px;
+    text-align: left;
+}
+
+th {
+    background-color: #12293b;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+#contato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1.5;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 15px;
+    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #12293b;
+    color: #ffffff;
+    padding: 24px;
+    margin-top: 64px;
+}
