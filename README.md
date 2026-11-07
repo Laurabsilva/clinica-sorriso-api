@@ -38,7 +38,5 @@
 * Pacientes VIP têm prioridade nos horários da semana (REQ07)
 * A recepção não vê a anotacao; o Dr. Roberto (CEO) vê tudo (REQ09 e REQ10)
 
-### DER
-
 ![Diagrama DER](./database/der.png)
 
