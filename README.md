@@ -40,5 +40,5 @@
 
 ### DER
 
-![Diagrama DER](./der.png)
->>>>>>> c970dac (feat: termina proejeto)
+![Diagrama DER](./database/der.png)
+
